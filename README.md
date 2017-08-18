@@ -23,6 +23,7 @@ Ubuntu commands for people who don't know Linux
 * Download a file from the internet: `wget {url}`
 * Back up your stuff locally: `rsync {source} {destination}`
 * Back up your stuff to another server: `rsync -avz -e ssh {path} {user}@{host}:{path}`
+* Extract .tar.bz2 `tar jxf filename.tar.bz2`
 
 ## File Permissions
 * Make a file executable: `chmod +x {filename}`
